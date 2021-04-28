@@ -2,9 +2,12 @@
 
 ## Your Task
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+Your assignment is to modify starter code to create an application called Note Taker that can be used 
+to write and save notes. This application will use an Express.js back end and will save and retrieve 
+note data from a JSON file.
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+The application’s front end has already been created. It's your job to build the back end, connect the
+two, and then deploy the entire application to Heroku.
 
 
 ## User Story
@@ -65,15 +68,13 @@ The following API routes should be created:
 * `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
 
 * `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` 
-file, and then return the new note to the client. You'll need to find a way to give each note a 
-unique id when it's saved (look into `npm` packages that could do this for you).
+file, and then return the new note to the client. You'll need to find a way to give each note a unique
+id when it's saved (look into `npm` packages that could do this for you).
 
 
 ## Bonus
 
-You haven’t learned how to handle DELETE requests, but this application has that functionality in the 
-front end. As a bonus, see if you can add the DELETE route to the application using the following 
-guideline:
+You haven’t learned how to handle DELETE requests, but this application has that functionality in the front end. As a bonus, see if you can add the DELETE route to the application using the following guideline:
 
 * `DELETE /api/notes/:id` should receive a query parameter containing the id of a note to delete. In 
 order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with 
@@ -118,13 +119,11 @@ This homework is graded based on the following criteria:
 
 * Repository follows best practices for file structure and naming conventions.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, 
-etc.
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
 * Repository contains multiple descriptive commit messages.
 
-* Repository contains quality README file with description, screenshot, and link to deployed 
-application.
+* Repository contains quality README file with description, screenshot, and link to deployed application.
 
 
 ### Bonus: +10 Points
@@ -138,9 +137,7 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the functional, deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing 
-the project.
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights 
-Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
